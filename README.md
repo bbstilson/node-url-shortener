@@ -44,3 +44,13 @@ Paste the `url` response into your browser.
 ### Persistence
 
 Since this was just for fun, the service uses an in-memory sqlite database by default. This means that every restart will wipe out the saved url hashes. So, if you're developing with `nodemon`, you lose the saved entries every time you hit save.
+
+### Testing
+
+The tests live next to the files, which in this case are at root-level.
+
+To run tests:
+
+```
+yarn test
+```
