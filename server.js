@@ -57,6 +57,7 @@ app.post('/', (req, res) => {
 
   if (!url) {
     res.status(400).end();
+    return;
   }
 
   const hash = getURLHash(url);
