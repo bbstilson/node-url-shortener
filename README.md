@@ -9,7 +9,7 @@ The server uses `express` and the persistence layer is `sqlite3`.
 From root:
 
 ```
-node server.js
+yarn start
 ```
 
 You should see:
@@ -19,7 +19,11 @@ Connected to database.
 Listening on port 3000
 ```
 
-For development, I like to use `nodemon` for auto-restarts.
+For development, I like to use `nodemon` for auto-restarts, but you will need to install it globally:
+
+```
+nodemon server.js
+```
 
 ### Getting a shortened URL
 
